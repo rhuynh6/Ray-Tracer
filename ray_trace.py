@@ -234,5 +234,7 @@ for j, y in enumerate(np.linspace(screen[1], screen[3], HEIGHT)):
         #Assign color to pixel
         img[HEIGHT-j-1, i, :]=np.clip(curr_color, 0, 1)
 
+        #tester
+
 print('Done! raytrace.png generated.')
 plotting.imsave('raytrace.png', img)
